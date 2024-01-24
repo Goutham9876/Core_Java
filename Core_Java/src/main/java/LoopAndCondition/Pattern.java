@@ -1,4 +1,4 @@
-package Abstraction.LoopAndCondition;
+package LoopAndCondition;
 
 public class Pattern {
 

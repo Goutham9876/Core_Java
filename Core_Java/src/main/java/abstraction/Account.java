@@ -1,4 +1,4 @@
-package abstract;
+package abstraction;
 
 public class Account {
     static int accountNumber = 12233;

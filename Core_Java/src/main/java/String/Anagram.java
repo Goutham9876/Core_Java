@@ -1,33 +1,12 @@
+package String;
 
-
-    import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
     public class Anagram {
-        public static void main(String[] args) {
-            // Read input strings from the user
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter the first string: ");
-            String str1 = scanner.nextLine();
-            System.out.print("Enter the second string: ");
-            String str2 = scanner.nextLine();
-
-            // Check if the strings are anagrams
-            boolean result = areAnagrams(str1, str2);
-
-            // Display the result
-            if (result) {
-                System.out.println("The strings are anagrams.");
-            } else {
-                System.out.println("The strings are not anagrams.");
-            }
-
-            // Close the scanner
-            scanner.close();
-        }
 
         // Method to check if two strings are anagrams
-        public static boolean areAnagrams(String s1, String s2) {
+        public boolean areAnagrams(String s1, String s2) {
             // Remove spaces and convert to lowercase for case-insensitive comparison
             s1 = s1.replaceAll("\\s", "").toLowerCase();
             s2 = s2.replaceAll("\\s", "").toLowerCase();

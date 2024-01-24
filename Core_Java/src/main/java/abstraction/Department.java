@@ -1,7 +1,11 @@
+package abstraction;
 
-abstract class Department {
+public class Department {
     int size = 100;
-    abstract int getDepartmentSize();
+
+    public int getDepartmentSize() {
+        return 0;
+    }
 }
 
 class Deptsize extends Department{

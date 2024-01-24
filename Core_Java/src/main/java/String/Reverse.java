@@ -1,17 +1,10 @@
-public class reverse {
-    public static void main(String[] args) {
-        // Example sentence
-        String inputSentence = "Java J2EE Reverse Me";
+package String;
 
-        // Call the method to reverse each word in the sentence
-        String reversedSentence = reverseWords(inputSentence);
+public class Reverse {
 
-        // Display the result
-        System.out.println("Reversed Sentence: " + reversedSentence);
-    }
 
     // Method to reverse each word in a sentence
-    public static String reverseWords(String sentence) {
+    public  String reverseWords(String sentence) {
         // Split the sentence into words
         String[] words = sentence.split(" ");
 
@@ -25,7 +18,7 @@ public class reverse {
     }
 
     // Method to reverse a single word
-    public static String reverseWord(String word) {
+    public  String reverseWord(String word) {
         char[] charArray = word.toCharArray();
         int left = 0;
         int right = charArray.length - 1;

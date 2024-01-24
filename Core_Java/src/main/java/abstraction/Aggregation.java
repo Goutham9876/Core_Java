@@ -1,4 +1,4 @@
-package Abstraction;
+package abstraction;
 
 class Maximum {
     public int mathFun(int a, int b) {

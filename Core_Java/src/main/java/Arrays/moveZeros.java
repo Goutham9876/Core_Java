@@ -1,3 +1,5 @@
+package Arrays;
+
 public class moveZeros {
     public static void main(String[] args) {
         // Sample array
